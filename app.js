@@ -3,13 +3,26 @@
  * Pour utiliser la class Titutlaire, je lie le fichier Titulaire.js dans index.html, au-dessus de app.js.
  */
 
-// instance de la class Titulaire
+// instances de la class Titulaire
 let titulaire1 = new Titulaire("Shade", "Tinem");
 console.log(titulaire1);
 
 let titulaire2 = new Titulaire("M.", "Philou");
 console.log(titulaire2);
 
+let titulaire3 = new Titulaire("Jean", "Talu");
+console.log(titulaire3);
+
 // utilise la methode créee dans le constructeur de la class Titulaire
 titulaire1.afficheTitulaireInfos();
 titulaire2.afficheTitulaireInfos();
+
+
+// instance de la class Compte
+let compte1 = new Compte(titulaire1, 500);
+console.log(compte1);
+
+// exercice: créer une methode qui permet de crediter le compte d'un montant entré par l'utilisateur
+
+compte1.crediter(250);
+console.log(compte1);

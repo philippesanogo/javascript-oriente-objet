@@ -3,6 +3,11 @@
  */
 
 class Titulaire {
+    /**
+     * Titulaire de compte banquaire
+     * @param {string} nom 
+     * @param {string} prenom 
+     */
     constructor(nom, prenom) {
         this.nom = nom;
         this.prenom = prenom;
