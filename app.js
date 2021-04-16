@@ -34,3 +34,4 @@ console.log(`
 exercice 2:`);
 compte1.debiter(450);
 console.log(compte1);
+console.log(`Le solde restant: ${compte1.solde}€`);
