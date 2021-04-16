@@ -6,7 +6,19 @@ class Compte {
 
     }
 
+    /**
+     * Créditer le compte
+     * @param {number} montant 
+     */
     crediter(montant) {
         this.solde += montant;
+    }
+
+    /**
+     * Débiter le compte
+     * @param {number} montant 
+     */
+    debiter(montant) {
+        this.solde -= montant;
     }
 }

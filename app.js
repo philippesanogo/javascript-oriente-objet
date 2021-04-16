@@ -22,7 +22,15 @@ titulaire2.afficheTitulaireInfos();
 let compte1 = new Compte(titulaire1, 500);
 console.log(compte1);
 
-// exercice: créer une methode qui permet de crediter le compte d'un montant entré par l'utilisateur
 
+// exercice 1: créer une methode qui permet de crediter le compte d'un montant entré par l'utilisateur
+console.log(`
+exercice 1:`);
 compte1.crediter(250);
+console.log(compte1);
+
+// exercice 2: créer une methode qui permet de débiter le compte d'un montant retirer par l'utilisateur
+console.log(`
+exercice 2:`);
+compte1.debiter(450);
 console.log(compte1);
