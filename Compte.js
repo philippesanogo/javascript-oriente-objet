@@ -21,4 +21,9 @@ class Compte {
     debiter(montant) {
         this.solde -= montant;
     }
+
+
+    afficherSolde() {
+        console.log(`Le solde restant est de : ${this.solde}€ (euros)`);
+    }
 }

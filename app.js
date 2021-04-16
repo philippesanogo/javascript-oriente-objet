@@ -32,6 +32,11 @@ console.log(compte1);
 // exercice 2: créer une methode qui permet de débiter le compte d'un montant retirer par l'utilisateur
 console.log(`
 exercice 2:`);
-compte1.debiter(450);
+compte1.debiter(430);
+// affiche dans la console
 console.log(compte1);
-console.log(`Le solde restant: ${compte1.solde}€`);
+
+// exercice 3: créer une méthode qui permet d'afficher le solde de compte
+console.log(`
+exercice 3:`);
+compte1.afficherSolde();
